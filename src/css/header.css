@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.meme-logo{
+    display: flex;
+    align-items: center;  
+}
+.meme-logo-img{
+    /* width: 100%; */
+    max-width: 3rem;
+    margin-right: .6rem;
+}
+.meme-logo-text{
+    font-size: 1.4rem;
+}
+.meme-logo-right{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        padding: 1rem 1.1rem;
+    }
+    .meme-logo-img{
+        width: 2rem;
+    }
+    .meme-logo-text{
+        font-size: 1rem;
+    }
+    .meme-logo-right{
+        font-size: .5rem;
+    }
+}
+
+
